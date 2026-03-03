@@ -75,7 +75,7 @@ jobs:
         cd "Day 1/lesson-6-ci-cd"
         docker build -t adult_income .
 
-    - name: Run Docker container for Flask app
+    - name: Run Docker container for the Flask app
       run: |
         cd "Day 1/lesson-6-ci-cd"
         docker run -d -p 8000:8000 adult_income
