@@ -34,4 +34,5 @@ def test_model_output(setup):
     y_pred = clf.predict(X_test)  # Predict using preprocessed test data
     
     # Ensure predictions are of the correct shape
-    assert y_pred.shape[0] == y_test.shape[0], "Mismatch in the number of predictions and true labels"
+    # assert y_pred.shape[0] == y_test.shape[0], "Mismatch in the number of predictions and true labels"
+    assert 1 == 0, "This is a test error"
